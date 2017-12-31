@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  font:normal 100%/1.5 Georgia,serif;
+}
+
+body {
+  margin:0;
+}
+
+header {
+  background-color:#ffe500;
+  padding: .2em .5em .3em;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: Sigmar One, cursive;
+  color: #b20953;
+  margin:0;
+  text-align: center;
+}
+
+.nav {
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  display:inline-block;
+}
+
+.nav a {
+  color: #fff;
+  display:inline-block;
+  padding: .3em .75em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #cc1465;
+}
+
+.nav .current {
+  background-color: #cc1465;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-family: Sigmar One, cursive;
+  color: #b20953;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+img {
+  width:100%;
+}
+
+footer {
+  font-size: .75rem;
+  padding: .2em .5em .3em;
+  margin:
+  display: inline-block;
+  background-color: #ffe500;
+  line-height: 1.5;
+  text-align: center;
+}
