@@ -1,73 +1,115 @@
 html {
   box-sizing: border-box;
-  font:normal 100%/1.5 Georgia,serif;
+  font: normal 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-  margin:0;
+  background-color: white;
+  margin: 0;
 }
 
 header {
   background-color:#ffe500;
-  padding: .2em .5em .3em;
+  padding: .1rem 0 .4rem;
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
-  font-size: 3rem;
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
-  margin:0;
   text-align: center;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
 }
 
-.nav {
-  margin:0;
-  padding:0;
-  list-style: none;
-  text-align: center;
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  text-transform: capitalize;
+  color: #b20953;
+  text-align: left;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
 }
 
-.nav li {
+p {
+  font-family: Georgia, serif;
+  text-align: left;
+  margin: .1em;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+nav ul {
+  display: block;
+  margin: 0;
+  padding: .1rem;
+  font-size: 1.2rem;
+  font-family: Georgia, serif;
+  padding-bottom: .22rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav li {
   display:inline-block;
+  text-align: center;
 }
 
-.nav a {
+nav a {
   color: #fff;
-  display:inline-block;
-  padding: .3em .75em;
+  display:inline;
+  padding: .35em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: #cc1465;
 }
 
-.nav .current {
+.current {
   background-color: #cc1465;
-}
-
-h2 {
-  font-size: 1.875rem;
-  font-family: Sigmar One, cursive;
-  color: #b20953;
-}
-
-p {
-  font-size: 1.125rem;
 }
 
 img {
-  width:100%;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 1.6rem .5rem 0 0;
 }
 
 footer {
-  font-size: .75rem;
-  padding: .2em .5em .3em;
-  margin:
-  display: inline-block;
-  background-color: #ffe500;
-  line-height: 1.5;
   text-align: center;
+  font-family: Georgia, serif;
+  color: #2f2d13;
+  background-color: #ffe500;
+  margin: 0;
+  padding: .75em;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-left: .75em;
+  padding-top: .6rem;
+  padding-bottom: 1em;
 }
